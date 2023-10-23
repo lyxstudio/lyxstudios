@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>个人工作室简介</title>
+    <link rel="stylesheet" href="css/swiper.min.css">
+    <link rel="stylesheet" href="font/iconfont.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/jquery.min.js"></script>
+    <script src="js/swiper.min.js"></script>
+    <script src="js/public.js"></script>
+</head>
+<body>
+    <header class="header">
+        <!-- 中间模块 -->
+        <div class="pubCon hdCon">
+            <a href="#" class="hdLogo">
+                <img src="images/4-1.png" alt="">
+            </a>
+            <nav class="hdNav">
+                <!-- 右侧菜单 -->
+                <!-- ul>li*5>a -->
+                <ul>
+                    <li><a href="index.html">首页</a></li>
+                    <li><a href="#">案例</a></li>
+                    <li><a href="#">服务</a></li>
+                    <li><a href="about.html">关于我们</a></li>
+                    <li><a href="#">新闻资讯</a></li>
+                </ul>
+            </nav>
+            <!-- 菜单 -->
+            <div class="hdMenu">
+                <i></i>
+                <i></i>
+                <i></i>
+
+            </div>
+        </div>
+    </header>
+
+    <!-- 轮播图 -->
+    <section class="banner">
+        <div class="swiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <a href="#" class="big" style="background-image: url(images/banner5.jpeg);"></a>
+                    <a href="#" class="small" style="background-image: url(images/small.jpeg);"></a>
+                </div>
+                <div class="swiper-slide">
+                    <a href="#" class="big" style="background-image: url(images/banner6.jpeg);"></a>
+                    <a href="#" class="small" style="background-image: url(images/small.jpeg);"></a>
+                </div>
+                <!-- <div class="swiper-slide">Slide 3</div> -->
+            </div>
+            <!-- 如果需要分页器 -->
+            <div class="swiper-pagination"></div>
+            
+            <!-- 如果需要导航按钮-->
+            <!--<div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>-->
+            
+            <!-- 如果需要滚动条 -->
+            <!--<div class="swiper-scrollbar"></div> -->
+        </div>
+    </section>
+    <script>        
+        var bnrSwiper = new Swiper ('.banner .swiper', {
+        //   direction: 'vertical', // 垂直切换选项
+          loop: true, // 循环模式选项
+          
+          // 如果需要分页器
+          pagination: {
+            el: '.banner .swiper-pagination',
+          },
+          
+          // 如果需要前进后退按钮
+        //   navigation: {
+        //     nextEl: '.swiper-button-next',
+        //     prevEl: '.swiper-button-prev',
+        //   },
+          
+          // 如果需要滚动条
+        //   scrollbar: {
+        //     el: '.swiper-scrollbar',
+        //   },
+        })        
+    </script>
+<p>hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh</p>
+    <!-- 服务区 弹性盒模型-->
+    <section class="service">
+        <div class="pubTit serTit">
+            <h2>专注的服务</h2>
+            <div class="line"></div>
+        </div>
+        <div class="pubCon serCon">
+            <a href="#" class="box">
+                <div class="boxIcon">
+                    <i class="iconfont icon-phone"></i>
+                </div>
+                <h3>App开发</h3>
+                <p>App开发App开发App开发App开发App开发App开发App开发App开发App开发</p>
+            </a>
+            <a href="#" class="box">
+                <div class="boxIcon">
+                    <i class="iconfont icon-computer"></i>
+                </div>
+                <h3>网站开发</h3>
+                <p>网站开发网站开发网站开发网站开发网站开发网站开发网站开发网站开发网站开发</p>
+            </a>
+            <a href="#" class="box">
+                <div class="boxIcon">
+                    <i class="iconfont icon-app"></i>
+                </div>
+                <h3>电商设计</h3>
+                <p>电商设计电商设计电商设计电商设计电商设计电商设计电商设计电商设计电商设计</p>
+            </a>
+            <a href="#" class="box">
+                <div class="boxIcon">
+                    <i class="iconfont icon-service"></i>
+                </div>
+                <h3>技能教育</h3>
+                <p>技能教育技能教育技能教育技能教育技能教育技能教育技能教育技能教育技能教育技能教育</p>
+            </a>
+        </div>
+    </section>
+    <section class="about">
+        <div class="pubTit abtTit">
+            <h2>我们是不断创新、专注研究、充满活力的<br>用户体验专家</h2>
+            <div class="line"></div>
+        </div>
+        <div class="pubCon abtCon">
+            <div class="abtText">一段文字一段文字一段文字一段文字一段文字一段文字一段文字一段文字一段文字一段文字一段文字一段文字</div>
+            <div class="btnGroup">
+                <a href="#" class="btn btnLeft">咨询我们</a>
+                <a href="#" class="btn btnRight">了解我们</a>
+            </div>
+        </div>
+        
+    </section>
+    <section class="case">
+        <div class="pubTit">
+            <h2>项目案例展示</h2>
+            <div class="line"></div>
+        </div>
+        <div class="pubCon caseCon">
+            <a href="#" class="box">
+                <img class="pic" src="images/1.png" alt="">
+                <div class="ceng">
+                    <h3>标题文字</h3>
+                    <div class="line"></div>
+                    <p>内容介绍</p>
+                </div>
+            </a>
+            <a href="#" class="box">
+                <img class="pic" src="images/2.png" alt="">
+                <div class="ceng">
+                    <h3>标题文字</h3>
+                    <div class="line"></div>
+                    <p>内容介绍</p>
+                </div>
+            </a>
+            <a href="#" class="box">
+                <img class="pic" src="images/3.png" alt="">
+                <div class="ceng">
+                    <h3>标题文字</h3>
+                    <div class="line"></div>
+                    <p>内容介绍</p>
+                </div>
+            </a>
+        </div>
+
+    </section>
+    <!-- 底部区域 -->
+    <section class="client">
+        <div class="pubTit">
+            <h2>服务的客户</h2>
+            <div class="line"></div>
+        </div>
+        
+        <div class="clientCon pubCon">
+            <ul>
+                <li><img src="images/5-1.png" alt=""></li>
+                <li><img src="images/5-1.png" alt=""></li>
+                <li><img src="images/5-1.png" alt=""></li>
+                <li><img src="images/5-1.png" alt=""></li>
+                <li><img src="images/5-1.png" alt=""></li>
+                <li><img src="images/5-1.png" alt=""></li>
+                <li><img src="images/5-1.png" alt=""></li>
+                <li><img src="images/5-1.png" alt=""></li>
+                <li><img src="images/5-1.png" alt=""></li>
+                <li><img src="images/5-1.png" alt=""></li>
+                <li><img src="images/5-1.png" alt=""></li>
+                <li><img src="images/5-1.png" alt=""></li>
+            </ul>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="ftMain pubCon">
+            <a href="#" class="ftlogo">
+                <img src="images/4-1.png" alt="">
+                <div class="text">
+                    <p>weipin.com</p>
+                    <h1>网络科技</h1>
+                </div>
+            </a>
+            <div class="ftCon">
+                <div class="ftContact">
+                    <h4>商务合作</h4>
+                    <p>
+                        邮箱<br>
+                        手机<br>
+                        QQ:<a target="_blank" href="https://www.baidu.com/">打开百度</a><br>
+                        微博<br>
+                    </p>
+                </div>
+                <div class="ftLink">
+                    <div class="box">
+                        <h4>服务</h4>
+                        <a href="#">全部</a>
+                        <a href="#">App开发</a>
+                        <a href="#">网站设计制作</a>
+                        <a href="#">电商设计</a>
+                        <a href="#">技能教育</a>
+                    </div>
+                </div>
+                <div class="ftLink">
+                    <div class="box">
+                        <h4>我们</h4>
+                        <a href="#">全部</a>
+                        <a href="#">App开发</a>
+                        <a href="#">网站设计制作</a>
+                        <a href="#">电商设计</a>
+                        <a href="#">技能教育</a>
+                    </div>
+                </div>
+                <div class="ftLink">
+                    <div class="box">
+                        <h4>合作</h4>
+                        <a href="#">全部</a>
+                        <a href="#">App开发</a>
+                        <a href="#">网站设计制作</a>
+                        <a href="#">电商设计</a>
+                        <a href="#">技能教育</a>
+                    </div>
+                </div>
+                <div class="ftLink">
+                    <div class="box">
+                        <h4>帮助</h4>
+                        <a href="#">全部</a>
+                        <a href="#">App开发</a>
+                        <a href="#">网站设计制作</a>
+                        <a href="#">电商设计</a>
+                        <a href="#">技能教育</a>
+                    </div>
+                </div>
+
+                <div class="ftEwm">
+                    <img src="images/ewm1.png" alt="">
+                    <p>微信公众号</p>
+                </div>
+
+            </div>
+        </div>
+        <div class="copyright">
+            版权所有&copy; <a href="#">互动</a> Copyright 2010-<span class="year"></span> 。。。。。。。
+            <a href="#" target="_blank">鲁ICP备。。。。。。号</a>
+
+        </div>
+    </footer>
+    <script>
+        var year=new Date().getFullYear();
+        $(".year").html(year)
+    </script>
+
+    <!-- (屏幕)背景遮罩层:展开右侧菜单时设置收回事件 -->
+    <div class="bodyBg">
+
+    </div>
+
+</body>
+</html>
